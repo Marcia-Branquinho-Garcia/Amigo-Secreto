@@ -160,3 +160,72 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+/* Estilos para telas menores (celulares) */
+@media (max-width: 600px) {
+    body {
+        align-items: flex-start;
+    }
+
+    .main-content {
+        border-radius: 0;
+        height: auto;
+    }
+
+    .header-banner {
+        flex: auto;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .input-section {
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .input-name {
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+
+    .button-add {
+        border-radius: 25px;
+    }
+
+    .button-container {
+        width: 100%;
+    }
+
+    .button-draw {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .button-draw img {
+        margin-right: 10px;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+    .result-list {
+        font-size: 20px;
+    }
+}
