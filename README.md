@@ -6,6 +6,10 @@
 
 Este é um projeto simples e divertido desenvolvido como parte do programa **Oracle Next Education (ONE)** em parceria com a **Alura**. A aplicação permite aos usuários adicionar nomes de participantes a uma lista e, em seguida, realizar um sorteio para determinar quem é o "amigo secreto". O objetivo principal foi praticar a manipulação de elementos da página (DOM) e a lógica de programação com JavaScript.
 
+### 🎥 Demonstração
+
+![Demonstração do projeto](./amigo-secreto.gif)
+
 ## ✨ Funcionalidades
 
 - **Adicionar Nomes:** Permite inserir nomes de amigos em um campo de texto e adicioná-los a uma lista.
@@ -27,7 +31,7 @@ Este projeto é uma aplicação web estática e não requer instalação complex
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Marcia-Branquinho-Garcia/Amigo-Secreto.git](https://github.com/Marcia-Branquinho-Garcia/Amigo-Secreto.git)
+    git clone https://github.com/Marcia-Branquinho-Garcia/Amigo-Secreto.git
     ```
 2.  **Acesse a pasta do projeto:**
     ```bash
